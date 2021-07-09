@@ -1,7 +1,8 @@
 
-section{
+.body{
     font-family: 'Montserrat' ;
 }
+   
 #title{
     background-color: #ff4c68;
     color:#fff
@@ -13,7 +14,7 @@ section .container-fluid{
 }
 
 .row h1  {
-    font-family: 'Montserrat', sans-serif;
+    
     font-size: 3.5rem ;
     line-height: 1.5 ;
 }
@@ -31,6 +32,7 @@ nav.navbar{
 .nav-link{
     font-size: 1.2rem;
     font-family: 'Montserrat-light',sans-serif;
+  
 }
 
 
@@ -76,7 +78,7 @@ a.navbar-brand{
 }
 
 .row h3{
-    font-family: 'Montserrat', sans-serif;  
+     
     font-size: 1.5rem;
 }
 .row p{
@@ -95,7 +97,7 @@ a.navbar-brand{
 /* Section 3*/
 
 #testimonials h2{
-    font-family: 'Montserrat', sans-serif;
+    
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -113,7 +115,7 @@ a.navbar-brand{
 }
 @media(max-width:500px){
     .testimonial-img{
-        width: 0%;
+        width: 40%;
         text-align: center;
 
     } 
@@ -152,10 +154,11 @@ a.navbar-brand{
     text-align: center;
     padding: 7% 15% ;
     color: #fff;
-    font-family: 'Montserrat'
+  
    
 }
 #cta h3{
+    
     font-size: 3rem;
     line-height: 1.5;
 }
