@@ -112,6 +112,13 @@ a.navbar-brand{
     border-radius: 100%;
     margin: 20px;
 }
+@media(max-width:500px){
+    .testimonial-img{
+        width: 40%;
+        text-align: center;
+
+    } 
+}
 
 /* section 4 */
 
